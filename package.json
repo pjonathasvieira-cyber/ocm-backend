@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Backend API for O Código da Masculinidade admin panel",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
